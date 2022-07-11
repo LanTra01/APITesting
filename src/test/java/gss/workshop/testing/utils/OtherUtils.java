@@ -19,9 +19,4 @@ public class OtherUtils {
     return name;
   }
 
-  public static String randomTaskName() {
-    String name = "My task " + (int) (Math.random() * 10000);
-    logger.info(String.format("Random text: %s", name));
-    return name;
-  }
 }

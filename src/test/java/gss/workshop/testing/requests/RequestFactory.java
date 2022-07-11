@@ -142,8 +142,5 @@ public class RequestFactory extends TestBase {
     return res;
   }
 
-  private static HashMap setCommonQueryParams() {
-    HashMap<String, String> params = addParams(Map.of("key", key, "token", token));
-    return params;
-  }
+
 }
