@@ -1,5 +1,6 @@
 package gss.workshop.testing.utils;
 
+
 import java.util.logging.Logger;
 
 public class OtherUtils {
@@ -15,6 +16,12 @@ public class OtherUtils {
   public static String randomTaskName() {
     String name = "My task " + (int) (Math.random() * 10000);
     logger.info(String.format("Random Task text: %s", name));
+    return name;
+  }
+
+  public static String randomTaskName() {
+    String name = "My task " + (int) (Math.random() * 10000);
+    logger.info(String.format("Random text: %s", name));
     return name;
   }
 }
